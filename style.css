@@ -81,6 +81,7 @@ hr{
     padding: 12px;
     margin-bottom: 12px ;
     border-radius: 10px;
+    transition: transform 0.2s;
     & p{
         font-size: 14px;
         color: #999;
@@ -90,6 +91,11 @@ hr{
         font-weight: 500;
     }
 }
+
+.card:hover {
+    transform: scale(1.02);
+}
+
 .weather-data{
     display: grid;
     /* background-color: rgb(67, 67, 67); */

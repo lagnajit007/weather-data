@@ -1,4 +1,4 @@
-const API_KEY = '906d65f711f8fe5b3febe492e0c347b1';
+const API_KEY = '906d65f711f8fe5b3febe492e0c347b1'; 
 const cityInput = document.getElementById('city_input');
 const searchBtn = document.getElementById('searchBtn');
 const locationBtn = document.getElementById('locationBtn');
@@ -6,7 +6,7 @@ const currentWeatherCard = document.querySelector('.weather-left .card');
 const dayForecastCard = document.querySelector('.day-forecast');
 const hourlyForecastDiv = document.querySelector('.hourly-forecast');
 const errorContainer = document.querySelector('.error-container');
-const suggestionBox = document.createElement('div'); // Create a suggestion box
+const suggestionBox = document.createElement('div');
 
 // Add styles for the suggestion box
 suggestionBox.style.position = 'absolute';

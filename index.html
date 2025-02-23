@@ -3,12 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Weather App</title>
+    <title>Weather App - Real-time Weather Updates</title>
+    <meta name="description" content="Get real-time weather updates, forecasts, and air quality information for your city.">
+    <link rel="icon" href="apple-touch-icon.png" type="image/x-icon">
     <script src="https://kit.fontawesome.com/2fd718cf6c.js" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
     <link rel="stylesheet" href="style.css">
     <meta name="keywords" content="weather app, current weather, weather forecast, city weather, air quality index, humidity, temperature, wind speed, sunrise sunset, weather updates, local weather, 5-day forecast, weather conditions, real-time weather, weather information">
-    <link rel="icon" href="apple-touch-icon.png" type="image/x-icon">
 </head>
 <body>
     <div class="container">
@@ -17,15 +18,15 @@
         </div>
         <div class="header">
             <h2>Weather</h2>
-                <div class="weather-input">
-                    <input type="text" name="city" id="city_input" placeholder="Enter City Name">
-                    <button type="button" id="searchBtn">
-                        <i class="fa-solid fa-magnifying-glass"></i> Search
-                    </button>
-                    <button type="button" id="locationBtn">
-                        <i class="fa-solid fa-location-dot"></i> Current Location
-                    </button>
-                </div>
+            <div class="weather-input">
+                <input type="text" name="city" id="city_input" placeholder="Enter City Name" aria-label="City Name">
+                <button type="button" id="searchBtn" aria-label="Search">
+                    <i class="fa-solid fa-magnifying-glass"></i> Search
+                </button>
+                <button type="button" id="locationBtn" aria-label="Current Location">
+                    <i class="fa-solid fa-location-dot"></i> Current Location
+                </button>
+            </div>
         </div>
         <div class="weather-data">
             <div class="weather-left">
